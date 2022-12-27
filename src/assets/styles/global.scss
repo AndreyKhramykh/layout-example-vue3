@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    // overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-hovered:hover {
+    color: orange;
+    cursor: pointer;
+
+}
+
+.button-hovered:hover {
+    background-color: #3954ca;
+    cursor: pointer;
+}
+
+.social-icon-hovered:hover {
+    color: #5373FD;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(@/assets/fonts/JosefinSans-Regular.ttf);
+};
+
+@font-face {
+    font-family: Aleo;
+    src: url(@/assets/fonts/Aleo-Regular.ttf);
+}
